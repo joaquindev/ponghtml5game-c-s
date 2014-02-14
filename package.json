@@ -1,0 +1,29 @@
+{
+  "name": "ponghtml5game-c-s",
+  "version": "0.0.1",
+  "description": "This repo contains the code when transcoding/transcribing the code of this other awesome repository https://github.com/danielmahal/Pong",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaquindev/ponghtml5game-c-s.git"
+  },
+  "keywords": [
+    "pong",
+    "server",
+    "client"
+  ],
+  "author": "joaquindev",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "8d3cf0cb30bb0d4df71427c1fc13bd4d8eae44c6",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
