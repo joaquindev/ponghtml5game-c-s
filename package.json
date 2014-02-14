@@ -4,7 +4,7 @@
   "description": "This repo contains the code when transcoding/transcribing the code of this other awesome repository https://github.com/danielmahal/Pong",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt --verbose"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,11 @@
     "grunt-contrib-uglify": "~0.3.2",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-watch": "~0.5.3"
+  },
+  "dependencies": {
+    "express": "~3.4.8",
+    "http": "0.0.0",
+    "socket.io": "~0.9.16",
+    "crypto": "0.0.3"
   }
 }
