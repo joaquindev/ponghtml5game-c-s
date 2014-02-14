@@ -60,7 +60,7 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-mocha-test');
 
   //this would be run by typing "grunt test" on the command line
-  grunt.registerTask('test', ['jshint']);
+  //grunt.registerTask('test', ['jshint']);
   //the default task can be run just by typing "grunt" on the command line
   grunt.registerTask('default', ['jshint', 'mochaTest', 'concat', 'uglify']);
 
