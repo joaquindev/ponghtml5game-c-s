@@ -41,6 +41,14 @@ module.exports = function(grunt){
     watch: {
       files: ['<%= jshint.files %>'],
       tasks: ['jshint']
+    }, 
+    mochaTest: {
+      test: {
+        options: {
+          reporter: 'spec'
+        }, 
+        src: ['test/**/*.js']
+      }  
     }
   });
 
@@ -49,10 +57,11 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-mocha-test');
 
   //this would be run by typing "grunt test" on the command line
   grunt.registerTask('test', ['jshint']);
   //the default task can be run just by typing "grunt" on the command line
-  grunt.registerTask('default', ['jshint', 'concat', 'uglify']);
+  grunt.registerTask('default', ['jshint', 'mochaTest', 'concat', 'uglify']);
 
 };
