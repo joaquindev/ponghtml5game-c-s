@@ -1,6 +1,6 @@
 {
   "name": "ponghtml5game-c-s",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This repo contains the code when transcoding/transcribing the code of this other awesome repository https://github.com/danielmahal/Pong",
   "main": "server.js",
   "scripts": {
