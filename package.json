@@ -20,13 +20,13 @@
   "readmeFilename": "README.md",
   "gitHead": "8d3cf0cb30bb0d4df71427c1fc13bd4d8eae44c6",
   "devDependencies": {
-    "grunt": "~0.4.2",
     "grunt-contrib-concat": "~0.3.0",
     "grunt-contrib-uglify": "~0.3.2",
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-watch": "~0.5.3"
   },
   "dependencies": {
+    "grunt": "~0.4.2",
     "express": "~3.4.8",
     "http": "0.0.0",
     "socket.io": "~0.9.16",
